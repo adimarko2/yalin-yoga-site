@@ -1,0 +1,22 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# קישור ישיר לקביעת שיעור, לשליחה בוואטסאפ ובאינסטגרם
+[[redirects]]
+  from = "/book"
+  to = "/?book=1"
+  status = 302
+
+[[redirects]]
+  from = "/whatsapp"
+  to = "https://wa.me/972508145029"
+  status = 302
+  force = true

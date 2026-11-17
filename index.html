@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ילין יוגה · באר שבע</title>
+<meta name="description" content="שיעורי אשטנגה בקבוצות קטנות בבאר שבע. למתחילים ולמתקדמים. מערכת שעות וקביעת שיעור.">
+<meta name="theme-color" content="#eaf3f6">
+<meta property="og:title" content="ילין יוגה · באר שבע">
+<meta property="og:description" content="אשטנגה בקבוצות של עד 10 משתתפים. מחזק, רגוע וחם.">
+<link rel="icon" href="assets/lotus.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/lotus.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&family=Noto+Serif+Hebrew:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#top" aria-label="ילין יוגה, לראש העמוד">
+    <img src="assets/lotus.svg" alt="" width="34" height="28">
+    <span><b>ילין</b> יוגה</span>
+  </a>
+  <a class="top__wa" id="topWa" href="#" target="_blank" rel="noopener" aria-label="וואטסאפ לילין">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.8L3.5 20.5l4.3-1.1A8.5 8.5 0 1 0 12 3.5Z"/><path d="M9 8.6c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c.6 1.2 1.6 2.2 2.8 2.8l.6-.6c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3 0 .5-.4.7-.5.3-1.3.5-2.2.3-2.2-.6-4.6-3-5.2-5.2-.2-.9 0-1.7.3-2.2Z" fill="currentColor" stroke="none"/></svg>
+  </a>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero__sky" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="eyebrow">אשטנגה יוגה · באר שבע</p>
+      <h1>יוגה שמחזקת את הגוף<br>ומרגיעה את הראש</h1>
+      <p class="hero__lead">קבוצות קטנות של עד 10 משתתפים, למתחילים ולמתקדמים. שיעור של <span class="nw">שעה ו-20 דקות</span> שבונה כוח, משמעת ושקט.</p>
+      <div class="hero__cta">
+        <button class="btn btn--main" data-book>לקביעת שיעור</button>
+        <a class="btn btn--ghost" href="#schedule">למערכת השעות</a>
+      </div>
+      <ul class="feel" aria-label="איך מרגיש שיעור">
+        <li>מחזק</li><li>רגוע</li><li>חם</li>
+      </ul>
+    </div>
+    <svg class="hero__wave" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 22C60 6 120 6 200 20s140 16 200 0V40H0Z"/></svg>
+  </section>
+
+  <section class="sec" id="schedule">
+    <div class="sec__head">
+      <p class="eyebrow">מערכת שעות</p>
+      <h2>מתי מתרגלים השבוע</h2>
+      <p class="sub">בוחרים שיעור ושומרים מקום בלחיצה.</p>
+    </div>
+    <div class="days" role="tablist" aria-label="ימי השבוע" id="dayChips"></div>
+    <div class="track" id="dayTrack"></div>
+    <p class="hint" id="swipeHint">מחליקים הצידה למעבר בין הימים</p>
+  </section>
+
+  <section class="sec sec--about" id="about">
+    <div class="about">
+      <div class="about__photo" aria-label="כאן תבוא תמונה של ילין">
+        <img src="assets/lotus.svg" alt="" width="90" height="74">
+        <span>כאן תבוא תמונה שלך מתרגלת</span>
+      </div>
+      <div class="about__text">
+        <p class="eyebrow">נעים להכיר</p>
+        <h2>אני ילין</h2>
+        <p>פגשתי יוגה לראשונה כשהייתי ילדה קטנה. אחר כך היא נעלמה לי מהחיים לכמה שנים טובות, וחזרה בטיול הגדול שלי במזרח. שם התאהבתי בה מחדש.</p>
+        <p>היום אני מתרגלת כבר שנתיים ומלמדת בקבוצות קטנות, כדי שלכל אחד ואחת יהיה מקום להתקדם בקצב שלהם.</p>
+      </div>
+    </div>
+
+    <div class="fit">
+      <h3>התרגול מתאים לכם אם</h3>
+      <ul>
+        <li><span class="dot" aria-hidden="true"></span>אתם מחפשים התמדה ומשמעת, ולא עוד שיעור מזדמן</li>
+        <li><span class="dot" aria-hidden="true"></span>בא לכם לעבוד גם על הגוף וגם על התודעה</li>
+        <li><span class="dot" aria-hidden="true"></span>אתם מוכנים לצאת קצת מאזור הנוחות ולנסות משהו חדש</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="prices">
+    <div class="sec__head">
+      <p class="eyebrow">מחירון</p>
+      <h2>מחירים ומנויים</h2>
+    </div>
+    <div class="prices" id="priceList"></div>
+    <p class="pay-note">משלמים במזומן בסוף השיעור, או בפייבוקס מראש.</p>
+  </section>
+
+  <section class="sec" id="info">
+    <div class="sec__head">
+      <p class="eyebrow">כדאי לדעת</p>
+      <h2>לפני השיעור הראשון</h2>
+    </div>
+    <div class="facts">
+      <div class="fact"><b>איפה</b><span>בשדרות יצחק רגר, באר שבע. את הכתובת המדויקת שולחים אחרי ההרשמה.</span></div>
+      <div class="fact"><b>כמה זמן</b><span>שעה ו-20 דקות של תרגול.</span></div>
+      <div class="fact"><b>כמה אנשים</b><span>עד 10 משתתפים בשיעור, כדי שיהיה זמן לכל אחד.</span></div>
+      <div class="fact"><b>ביטול</b><span>אפשר לבטל עד 12 שעות לפני השיעור בלי לאבד אותו.</span></div>
+      <div class="fact"><b>הצהרת בריאות</b><span>ממלאים פעם אחת, כחלק מההרשמה הראשונה.</span></div>
+    </div>
+  </section>
+
+  <section class="sec sec--end">
+    <img src="assets/lotus.svg" alt="" width="64" height="52">
+    <h2>מחכה לראות אותך על המזרן</h2>
+    <p class="sub">שאלה לפני שמגיעים? אפשר לכתוב לי בוואטסאפ.</p>
+    <div class="hero__cta">
+      <button class="btn btn--main" data-book>לקביעת שיעור</button>
+      <a class="btn btn--ghost" id="endWa" href="#" target="_blank" rel="noopener">כתבו לי בוואטסאפ</a>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p><b>ילין יוגה</b> · <a id="footPhone" href="#"></a> · <a id="footIg" href="#" target="_blank" rel="noopener">אינסטגרם</a></p>
+    <p class="foot__am">האתר נבנה על ידי AM Digital Marketing</p>
+  </footer>
+</main>
+
+<div class="dock">
+  <button class="btn btn--main btn--block" data-book>לקביעת שיעור</button>
+</div>
+
+<!-- קביעת שיעור -->
+<div class="sheet" id="sheet" aria-hidden="true">
+  <div class="sheet__scrim" data-close></div>
+  <div class="sheet__panel" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+    <div class="sheet__bar">
+      <button class="sheet__back" id="sheetBack" aria-label="חזרה">→</button>
+      <div class="steps" id="stepDots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <button class="sheet__x" data-close aria-label="סגירה">×</button>
+    </div>
+    <div class="sheet__body">
+
+      <section class="step" data-step="1">
+        <h3 id="sheetTitle">איזה שיעור?</h3>
+        <p class="sub">השיעורים הקרובים, לפי הסדר.</p>
+        <div class="pick" id="pickList"></div>
+      </section>
+
+      <section class="step" data-step="2">
+        <h3>נעים להכיר</h3>
+        <p class="sub" id="chosenLine"></p>
+        <label class="field"><span>שם מלא</span><input id="fName" autocomplete="name" required></label>
+        <label class="field"><span>טלפון</span><input id="fPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="050-0000000" required></label>
+        <fieldset class="seg">
+          <legend>זו הפעם הראשונה שלך אצלי?</legend>
+          <label><input type="radio" name="first" value="כן" checked><span>כן, פעם ראשונה</span></label>
+          <label><input type="radio" name="first" value="לא"><span>כבר תרגלתי אצלך</span></label>
+        </fieldset>
+        <p class="err" id="err2"></p>
+        <button class="btn btn--main btn--block" data-next>המשך</button>
+      </section>
+
+      <section class="step" data-step="3">
+        <h3>הצהרת בריאות</h3>
+        <p class="draft">זו טיוטה. הנוסח הסופי ייקבע עם ילין, ובינתיים הפרטים לא נשמרים באתר.</p>
+        <fieldset class="seg">
+          <legend>יש פציעה, כאב או מצב רפואי שכדאי שאדע עליו?</legend>
+          <label><input type="radio" name="hInj" value="לא" checked><span>לא</span></label>
+          <label><input type="radio" name="hInj" value="כן"><span>כן</span></label>
+        </fieldset>
+        <label class="field" id="injWrap" hidden><span>ספרו לי בקצרה</span><textarea id="fInj" rows="2"></textarea></label>
+        <fieldset class="seg">
+          <legend>האם את בהריון?</legend>
+          <label><input type="radio" name="hPreg" value="לא" checked><span>לא</span></label>
+          <label><input type="radio" name="hPreg" value="כן"><span>כן</span></label>
+        </fieldset>
+        <label class="check"><input type="checkbox" id="fDecl"><span>אני מצהיר/ה שמצבי הבריאותי מאפשר לי להשתתף בשיעור, ושאעדכן את ילין על כל שינוי.</span></label>
+        <div class="sign">
+          <div class="sign__top"><span>חתימה באצבע</span><button type="button" id="signClear">ניקוי</button></div>
+          <canvas id="signPad" aria-label="משטח חתימה"></canvas>
+          <small id="signDate"></small>
+        </div>
+        <p class="err" id="err3"></p>
+        <button class="btn btn--main btn--block" data-next>המשך</button>
+      </section>
+
+      <section class="step" data-step="4">
+        <h3>איך נוח לך לשלם?</h3>
+        <p class="sub" id="priceLine"></p>
+        <fieldset class="seg seg--col">
+          <label><input type="radio" name="pay" value="פייבוקס" checked><span><b>פייבוקס עכשיו</b><small>נפתח קישור התשלום של ילין</small></span></label>
+          <label><input type="radio" name="pay" value="מזומן בשיעור"><span><b>מזומן בסוף השיעור</b><small>פשוט מביאים איתכם</small></span></label>
+        </fieldset>
+        <a class="btn btn--main btn--block" id="sendBtn" href="#" target="_blank" rel="noopener">שליחת ההרשמה לילין בוואטסאפ</a>
+        <p class="fine">נפתחת הודעה מוכנה בוואטסאפ, והיא נשלחת רק אחרי שלוחצים "שליחה".</p>
+      </section>
+
+      <section class="step" data-step="5">
+        <div class="done">
+          <img src="assets/lotus.svg" alt="" width="72" height="58">
+          <h3>כמעט סיימנו</h3>
+          <p>אחרי ששולחים את ההודעה, ילין מאשרת את המקום ושולחת את הכתובת המדויקת.</p>
+          <a class="btn btn--main btn--block" id="payNow" href="#" target="_blank" rel="noopener" hidden>לתשלום בפייבוקס</a>
+          <button class="btn btn--ghost btn--block" data-close>חזרה לאתר</button>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<script src="assets/schedule.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "ילין יוגה",
+  "short_name": "ילין יוגה",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#eaf3f6",
+  "icons": [{ "src": "assets/lotus.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
